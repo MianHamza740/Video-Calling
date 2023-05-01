@@ -14,6 +14,8 @@ export default class buttun extends Component {
           <Text style={{color:'black'}}>Home Page</Text>
           <Text style={{color:'black'}}>Log: My first value after uploading the project on git</Text>
           <Text style={{color:'black'}}>Log: My Second value after uploading the project on git</Text>
+          <Text style={{color:'black'}}>log1: this is my first value after uploading the app on git from log</Text>
+
        </View>
     )
 
