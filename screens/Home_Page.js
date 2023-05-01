@@ -13,6 +13,7 @@ export default class buttun extends Component {
        <View style={styles.container}>
           <Text style={{color:'black'}}>Home Page</Text>
           <Text style={{color:'black'}}>Log: My first value after uploading the project on git</Text>
+          <Text style={{color:'black'}}>Log: My Second value after uploading the project on git</Text>
        </View>
     )
 
