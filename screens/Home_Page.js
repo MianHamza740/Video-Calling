@@ -12,6 +12,8 @@ export default class buttun extends Component {
     return(
        <View style={styles.container}>
           <Text style={{color:'black'}}>Home Page</Text>
+          <Text style={{color:'black'}}>log1: this is my first value after uploading the app on git from log</Text>
+
        </View>
     )
 
