@@ -19,6 +19,10 @@ target 'videocalling' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+
+  pod 'RNFBMessaging', :path => '../node_modules/@react-native-firebase/messaging'
+
   target 'videocallingTests' do
     inherit! :complete
     # Pods for testing
